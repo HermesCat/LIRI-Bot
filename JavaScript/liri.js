@@ -37,7 +37,7 @@ if (process.argv[2] === "movie-this") {
             var convertedTime = moment(time).format("L");
             console.log(`Venue: ${bandsInfo.venue.name}`);
             console.log(`Location: ${bandsInfo.venue.city}`);
-            console.log(`Location: ${convertedTime}`);
+            console.log(`Date: ${convertedTime}`);
             //node liri.js concert-this post malone
             
   }
